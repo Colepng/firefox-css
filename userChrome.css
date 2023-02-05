@@ -1,17 +1,17 @@
 /* Blur webpage when a modal is open (close all tabs, js alerts, etc.)*/
 /* https://www.reddit.com/r/FirefoxCSS/comments/101029m/how_can_i_blur_the_main_window_when_firefox_has_a/ */
 
-browser[primary="true"][tabDialogShowing="true"],
+/* browser[primary="true"][tabDialogShowing="true"],
 #main-window[window-modal-open="true"]>body>#browser {
     filter: blur(10px)
-}
+} */
 
 
 
 /* Blur email address in hamburger menu */
 /* https://www.reddit.com/r/FirefoxCSS/comments/yck6gt/blurring_email_address_in_hamburger_menu_for_some/ */
 
-#appMenu-popup #appMenu-header-description {
+/* #appMenu-popup #appMenu-header-description {
     filter: blur(4px) !important;
     transition: filter 350ms ease-out !important;
     transition-delay: 250ms !important;
@@ -19,7 +19,7 @@ browser[primary="true"][tabDialogShowing="true"],
 
 #appMenu-popup #appMenu-fxa-label2:hover #appMenu-header-description {
     filter: blur(0px) !important;
-}
+} */
 
 
 
@@ -46,40 +46,40 @@ browser[primary="true"][tabDialogShowing="true"],
 }
 
 /* secondary audio label ain't much use with this style, but feel free to remove the next line if you want to show it. */
-.tab-secondary-label {
+/* .tab-secondary-label {
     display: none
-}
+} */
 
 /* show the secondary label when video is in PiP */
-.tab-secondary-label[pictureinpicture] {
+/* .tab-secondary-label[pictureinpicture] {
     display: -moz-box
-}
+} */
 
 /* These exist for compatibility with combined_favicon_and_tab_close_button.css */
-.tab-icon-overlay {
+/* .tab-icon-overlay {
     pointer-events: auto
-}
+} */
 
-.tab-content>.tab-icon-stack,
+/* .tab-content>.tab-icon-stack,
 .tab-icon-stack:hover>.tab-icon-image {
     visibility: visible
-}
+} */
 
 
 
 /* Remove items from image context menu */
 
 /* Email Image... */
-#context-sendimage,
+/* #context-sendimage, */
 
 /* Set Image as Desktop Background... (and preceding separator) */
-#context-sep-setbackground,
-#context-setDesktopBackground,
+/* #context-sep-setbackground,
+#context-setDesktopBackground, */
 
 /* Inspect Accessibility Properties */
-#context-inspect-a11y {
+/* #context-inspect-a11y {
     display: none !important;
-}
+} */
 
 
 
